@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "FoodFast Kenya",
+    "slug": "foodfast-kenya",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.foodfast.kenya"
+    },
+    "android": {
+      "package": "com.foodfast.kenya",
+      "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ]
+  }
+}

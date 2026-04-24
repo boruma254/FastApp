@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "baseUrl": ".",
+    "lib": [
+      "es2020",
+      "dom",
+      "dom.iterable"
+    ],
+    "target": "es2020",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@screens/*": [
+        "./src/screens/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@types/*": [
+        "./src/types/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "extends": "expo/tsconfig.base"
+}
